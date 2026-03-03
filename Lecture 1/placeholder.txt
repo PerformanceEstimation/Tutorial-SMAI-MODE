@@ -2,7 +2,17 @@
 2) jupyter notebook
 
 
------ general intro & motivation here
+----- general intro:
+- objectives & motivations: analysis framework (Worst-case), first-order algorithms, etc.
+- what do we want you to take away from this?
 
+*objectives*: 
+- be able to formulate a PEP + construct simple proofs from it.
+- details: interpolation
+- details: SDP
+- details: duality
+- details: SOS-decompositions
+- details: Lyapunov
+- some details: design
 
------ jupyter notebook: full first example?
+----- jupyter notebook: PEPit example (so that we don't need to enter all details)
