@@ -1,0 +1,6 @@
+1) slides
+2) jupyter notebook
+
+
+full example here? -> from baby steps to full-fledged proof?
+

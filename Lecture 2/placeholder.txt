@@ -1,0 +1,7 @@
+1) slides
+2) jupyter notebook
+
+
+----- interpolation here?
+
+----- notebook: how to interpolate for several classes

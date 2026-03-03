@@ -1,0 +1,5 @@
+1) slides
+2) jupyter notebook
+
+
+Lyapunov analyses here?

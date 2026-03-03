@@ -1,0 +1,8 @@
+1) slides
+2) jupyter notebook
+
+
+----- general intro & motivation here
+
+
+----- jupyter notebook: full first example?
