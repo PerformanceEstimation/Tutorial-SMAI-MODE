@@ -3,3 +3,6 @@
 
 
 design here?
+*************************************
+
+5. Exos avec Lyapunov et cycles?

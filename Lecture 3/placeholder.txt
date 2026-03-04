@@ -3,4 +3,7 @@
 
 
 full example here? -> from baby steps to full-fledged proof?
+*****************
 
+
+3. Exercises/exemples & packages [à séléctionner, p-e faire ça pendant 1h en partant du "learning PEPs" // en gros leur faire reformuler des variantes des problèmes déjà vus, p-e un mini-peu de calcul symbolique?] >> on leur fait analyser des algos simples et retrouver des preuves simples d’un bout à l’autre? 1) avec pepit (si on peut avoir le nettoyage de primal et de dual dont les PRs doivent passer, ça serait top non?), et 2) avec Sympy/mathematica, et puis avec PySR, 3) on leur fait écrire la preuve complète (somme d'inégalités et puis reformulation SOS).

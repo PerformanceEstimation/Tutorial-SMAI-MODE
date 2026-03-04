@@ -3,3 +3,8 @@
 
 
 research themes here?
+*******************************************$$
+
+
+6. Design methods [Numerically—3 approches: SSEP, convex relaxations, bourrinage] ++ exemples: OgM, Item, silver, opt proximal…?
+7. Exos de design? (edited)

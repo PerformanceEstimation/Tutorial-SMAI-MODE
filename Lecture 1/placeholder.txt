@@ -16,3 +16,7 @@
 - some details: design
 
 ----- jupyter notebook: PEPit example (so that we don't need to enter all details)
+
+*****************
+
+1. (45mins?) Problème primal+dual bébé (exemple?) [par exemple --> je peux faire mon speech usuel "example-based" /// on utilise le fait qu'ils peuvent tout admettre (interpolation, etc)
