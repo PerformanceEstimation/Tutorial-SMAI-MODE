@@ -11,17 +11,12 @@ About 6 * 90mins.
 
 *Transport:* Tram T1 (stop at Valrose/Université), Bus 11, 16, 37
 
-
-
-## Ressources:
+### Ressources:
 
 Performance estimation problems were introduced in 2014 by **Yoel Drori** and **Marc Teboulle**, see [1]. In this mini-class, we mostly follows the perspective and formalism and developments from [2, 3].  A friendly informal introduction to this formalism is available in this [blog post](https://francisbach.com/computer-aided-analyses/).
 
 
-
-## Authors
-
-This mini-course has been created by
+### Lecturers
 
 - [**Aymeric Dieuleveut**](http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/)
 - [**Adrien Taylor**](https://adrientaylor.github.io/)
@@ -34,6 +29,10 @@ This mini-course has been created by
     <img src="Lecture 0/Logos/X.png" alt="Ecole Polytechnique" height="70">
   </a>
 </p>
+
+
+
+
 
 ## Acknowledgments
 
