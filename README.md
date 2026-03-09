@@ -1,4 +1,4 @@
-# Performance estimation tutorial at SMAI-MODE
+# Mini-course on performance estimation problems
 
 SMAI-MODE: https://mode2026.sciencesconf.org/
 
