@@ -1,16 +1,16 @@
 # Mini-course on performance estimation problems
 
-SMAI-MODE: https://mode2026.sciencesconf.org/
+**SMAI-MODE:** https://mode2026.sciencesconf.org/
 
-Takes place: Valrose campus (Université Côte d'Azur), J. A. Dieudonné laboratory. 
-
-
-Dates: starts March 16th, 2026 at 2pm, ends March 17th, 2026 at 6pm.
+**Dates:** starts March 16th, 2026 at 2pm, ends March 17th, 2026 at 6pm.
 About 6 * 90mins.
 
-Adress: Parc Valrose, 28 Avenue Valrose, 06000 Nice ([maps](https://maps.app.goo.gl/dNRu3spFookTCSQ68) )
+**Takes place at:** Valrose campus (Université Côte d'Azur), J. A. Dieudonné laboratory. 
+*Adress:* Parc Valrose, 28 Avenue Valrose, 06000 Nice ([maps](https://maps.app.goo.gl/dNRu3spFookTCSQ68))
 
-Transport: Tram T1 (stop at Valrose/Université), Bus 11, 16, 37
+*Transport:* Tram T1 (stop at Valrose/Université), Bus 11, 16, 37
+
+
 
 ## Ressources:
 
