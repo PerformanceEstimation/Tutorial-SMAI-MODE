@@ -1,0 +1,5 @@
+Numerical design
+
+1) SSEP --> OGM et nonsmooth (faciles)
+2) on peut ré-implémenter d'autres techniques de design [par exemple en utilisant le soft de CVXPY]
+3) autre: silver stepsizes (faciles car matrice de slack nulle)

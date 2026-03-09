@@ -2,17 +2,15 @@
 
 SMAI-MODE: https://mode2026.sciencesconf.org/
 
-Takes place:
+Takes place: Valrose campus (Université Côte d'Azur), J. A. Dieudonné laboratory. 
 
-Mini-cours (16-17 mars)
 
-Le mini-cours aura lieu sur le campus Valrose de l'Université Côte d'Azur au sein des locaux du laboratoire J. A. Dieudonné. Il commencera le lundi 16 à 14h pour s'achever le mardi 17 à 18h.
+Dates: starts March 16th, 2026 at 2pm, ends March 17th, 2026 at 6pm.
+About 6 * 90mins.
 
-Adresse :
-Parc Valrose, 28 Avenue Valrose, 06000 Nice
+Adress: Parc Valrose, 28 Avenue Valrose, 06000 Nice ([maps](https://maps.app.goo.gl/dNRu3spFookTCSQ68) )
 
-Transport en commun :
-Tram T1 (arrêt Valrose/Université), Bus 11, 16, 37
+Transport: Tram T1 (stop at Valrose/Université), Bus 11, 16, 37
 
 ## Ressources:
 
