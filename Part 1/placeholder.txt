@@ -1,0 +1,22 @@
+1) slides
+2) jupyter notebook
+
+
+----- general intro:
+- objectives & motivations: analysis framework (Worst-case), first-order algorithms, etc.
+- what do we want you to take away from this?
+
+*objectives*: 
+- be able to formulate a PEP + construct simple proofs from it.
+- details: interpolation
+- details: SDP
+- details: duality
+- details: SOS-decompositions
+- details: Lyapunov
+- some details: design
+
+----- jupyter notebook: PEPit example (so that we don't need to enter all details)
+
+*****************
+
+1. (45mins?) Problème primal+dual bébé (exemple?) [par exemple --> je peux faire mon speech usuel "example-based" /// on utilise le fait qu'ils peuvent tout admettre (interpolation, etc)
