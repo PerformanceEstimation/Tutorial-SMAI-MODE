@@ -14,8 +14,6 @@ About 6 * 90mins.
 ### Ressources:
 
 Performance estimation problems were introduced in 2014 by **Yoel Drori** and **Marc Teboulle**, see [1]. In this mini-class, we mostly follows the perspective and formalism and developments from [2, 3].  A friendly informal introduction to this formalism is available in this [blog post](https://francisbach.com/computer-aided-analyses/).
-
-
 ### Lecturers
 
 - [**Aymeric Dieuleveut**](http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/)
@@ -23,10 +21,10 @@ Performance estimation problems were introduced in 2014 by **Yoel Drori** and **
 
 <p align="center">
   <a href="https://www.inria.fr" style="margin: 0 40px;">
-    <img src="Lecture 0/Logos/inria.png" alt="Inria" height="70">
+    <img src="Part 0/Logos/inria.png" alt="Inria" height="70">
   </a>
   <a href="https://www.polytechnique.edu/" style="margin: 0 40px;">
-    <img src="Lecture 0/Logos/X.png" alt="Ecole Polytechnique" height="70">
+    <img src="Part 0/Logos/X.png" alt="Ecole Polytechnique" height="70">
   </a>
 </p>
 
@@ -42,12 +40,12 @@ Our projects were co-funded by the European Research Council (ERC grants SEQUOIA
   <tr>
     <td align="left" valign="middle">
       <a href="https://erc.europa.eu/homepage">
-        <img src="Lecture 0/Logos/EU.png" alt="European Union" height="130">
+        <img src="Part 0/Logos/EU.png" alt="European Union" height="130">
       </a>
     </td>
     <td align="right" valign="middle">
       <a href="https://anr.fr/">
-        <img src="Lecture 0/Logos/anr.png" alt="ANR" height="80">
+        <img src="Part 0/Logos/anr.png" alt="ANR" height="80">
       </a>
     </td>
   </tr>
