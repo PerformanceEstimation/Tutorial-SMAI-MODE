@@ -1,8 +1,0 @@
-1) slides
-2) jupyter notebook
-
-
-design here?
-*************************************
-
-5. Exos avec Lyapunov et cycles?
