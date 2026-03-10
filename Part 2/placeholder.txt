@@ -8,3 +8,4 @@
 
 
  2. (1h?) Interpolation + Problème primal + dual [cas + général?] --> essentiellement tes slides
+ 
