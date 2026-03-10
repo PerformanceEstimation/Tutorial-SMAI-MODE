@@ -352,7 +352,7 @@ legend pos/outer south/.style={
 \normalsize
 \vspace{.7cm}
 \begin{center}
-\small {{Aymeric Dieuleveut, Adrien Taylor}} \\[.5cm]
+\small {{Aymeric Dieuleveut, \underline{Adrien Taylor}}} \\[.5cm]
 \includegraphics[width=.2\linewidth]{Logos/X.png}\hspace{2cm} \includegraphics[width=.2\linewidth]{Logos/inr_logo_rouge_pms.eps}\hspace{2cm} \includegraphics[width=.2\linewidth]{Logos/logo_ens_psl_couleur.png}\\[1cm]
 
 \scriptsize SMAI-MODE tutorial -- March 2026
@@ -360,15 +360,6 @@ legend pos/outer south/.style={
 \end{center}
 \end{frame}
 
-
-%%(45mins?) Problème primal+dual bébé (exemple?) [par exemple --> je peux faire mon speech usuel "example-based" /// on utilise le fait qu'ils peuvent tout admettre (interpolation, etc)
-
-%% 2. (1h?) Interpolation + Problème primal + dual [cas + général?] --> essentiellement tes slides
-%%3. Exercises/exemples & packages [à séléctionner, p-e faire ça pendant 1h en partant du "learning PEPs" // en gros leur faire reformuler des variantes des problèmes déjà vus, p-e un mini-peu de calcul symbolique?] >> on leur fait analyser des algos simples et retrouver des preuves simples d’un bout à l’autre? 1) avec pepit (si on peut avoir le nettoyage de primal et de dual dont les PRs doivent passer, ça serait top non?), et 2) avec Sympy/mathematica, et puis avec PySR, 3) on leur fait écrire la preuve complète (somme d'inégalités et puis reformulation SOS).
-%%4. On motive: analyses right, mais… horizon-dependent! On va donc étudier des façons « moins tight » (tight juste sur un petit nombre d’iter) mais qui ne dépendent pas de l’horizon => 1. Cycles (plus facile, non?) et 2. Lyapunov.
-%%5. Exos avec Lyapunov et cycles?
-%%6. Design methods [Numerically—3 approches: SSEP, convex relaxations, bourrinage] ++ exemples: OgM, Item, silver, opt proximal…?
-%%7. Exos de design? (edited)
 
 
 
@@ -505,51 +496,6 @@ A differentiable function $f:\mathbb{R}^d\rightarrow \mathbb{R}$ is $\mu$-strong
 			\end{itemize}
 		}
 		
-%\frame{assumptions}
-
-
-%\frame{	\frtitle{Worst-case guarantee for gradient descent?}\scriptsize
-%	
-%	
-%	
-%	(Gradient method) For which $C(N,L)$ is
-%	\[ f(x_N)-f_\star \leq C(N,L)\,\,{\|x_0-x_\star\|^2}\]
-%	true for all $L$-smooth convex $f$ and $x_0\in\mathbb{R}^d$?
-%	
-%	{Find the worst possible function:
-%		\uncover<2->{\begin{align*}
-%			C(N,L)=\max_{f,x_0} \ &\frac{ f(x_N)-f_\star}{\|x_0-x_\star\|^2}\\[0.2cm]
-%			\text{subject to: } & f \text{ satisfies some assumptions}  & \text{Problem class}\\[0.1cm]
-%			&\uncover<2->{x_{k+1}=x_k-\gamma_k \nabla f(x_k) &\text{Algorithm}}\\[0.1cm]
-%			\end{align*}}\uncover<3->{Such problem are infinite dimensional (function as a variable).\\[.5cm]}
-%	}
-%}
-
-%%\frame{\frtitle{Smooth strongly convex functions}
-%%	\small {Differentiable function $f:\mathbb{R}^d\rightarrow\mathbb{R}$, $f$ is ($\mu$-strongly) convex and $L$-smooth iff $\forall x,y\in \mathbb{R}^d$ we have:\\[0.3cm]
-%%		
-%%		\uncover<2->{\begin{center}
-%%				\begin{tikzpicture}[yscale=0.35,xscale=0.35]
-%%				\draw[very thick, black, -stealth] (-10.5,-0.1) -- (11.2,-0.1);
-%%				\draw (11.2,-0.1) node[below left]{$x$};
-%%				\draw[very thick, black, -stealth] (-10,-0.5) -- (-10,8);
-%%				\draw (-10.1,8) node[left]{$f$};
-%%				\draw(0,0) [very thick, color=blue!50, domain=-3*3:3*3, samples=50] plot({\x}, {2+(\x/4)^2});
-%%%				\uncover<3>{\draw(0,0) [dashed,very thick, color=red, domain=-8:0, samples=50] plot({\x}, {2+1-1/2*(\x+4)});}
-%%				\uncover<3->{\draw(0,0) [dashed,very thick, color=red, domain=-8:0, samples=50] plot({\x}, {2+1-1/2*(\x+4)+((\x+4)/5)^2});}
-%%				\uncover<4->{\draw(0,0) [dashed,very thick, color=darkspringgreen, domain=-6.5:-0.7, samples=50] plot({\x}, {2+1-1/2*(\x+4)+1/2*(\x+4)^2});}
-%%				\node [color=blue] (poi) at (-4,3) {$\bullet$};
-%%				\end{tikzpicture}
-%%		\end{center}}
-%%		
-%%		\begin{itemize}
-%%			\item<3->[(1)] \textcolor{red}{($\mu$-strong convexity) $f(x) \geqslant f(y) + \inner{ \nabla f (y)}{x-y} +\frac{\mu}{2}\norm{x-y}^2$,}
-%%			\item<4->[(2)] \textcolor{darkspringgreen}{(L-smoothness) $f(x) \leqslant f(y) + \inner{\nabla f (y)}{x-y} +\frac{L}{2}\norm{x-y}^2$.}
-%%			
-%%		\end{itemize}
-%%	}
-%%	
-%%}
 
 
 \frame{\frtitle{Convergence rate of a gradient step}\scriptsize
@@ -655,57 +601,56 @@ Legitimate questions:
 \end{frame}
 
 
+
 \begin{frame}{Organization and learning outcomes (3/3)}
 \begin{itemize}
-    \item[0.] Organization (now) \hfill ($\sim$ 10 mins)
-    \item[1.] Motivations, and a full (simple) example \hfill ($\sim$ 60 mins)
-    \item[2.] Missing details (and more!):  \hfill ($\sim$ 60 mins)
+    \item[0.] Organization (now) \hfill ($\sim$ 20 mins)
+    \item[1.] Base performance estimation problems \hfill ($\sim$ 160 mins)
     \begin{itemize}
-    	\item first-order oracles, duality, interpolation,
-    	\item semidefinite programming.
+    	\item Simple example
+    	\item first-order oracles, duality, interpolation, semidefinite programming.
     \end{itemize}
-    \item[3.] Guided hands-on notebook examples and Q\&A \hfill ($\sim$ 60 mins)
-    \item[4.] Compact convergence \& non-convergence certificates \hfill ($\sim$ 90 mins)
+    \item[2.] Structured convergence \& non-convergence certificates \hfill ($\sim$ 180 mins)
     \begin{itemize}
         \item Using PEPs to search for cycles (no convergence).
         \item Using PEPs to search for Lyapunov functions (convergence).
     \end{itemize}
-    \item[5.] Guided hands-on notebook examples and Q\&A \hfill ($\sim$ 90 mins)
-    \item[6.] Numerical design of optimized algorithms \hfill ($\sim$ 60 mins)
-    \item[7.] Guided hands-on notebook examples and Q\&A \hfill ($\sim$ 60 mins)
+    \item[3.] Numerical design of optimized algorithms \hfill ($\sim$ 180 mins)
+    \begin{itemize}
+    	\item ...
+    	\item  
+    \end{itemize}
 \end{itemize}
-{\color{red}missing 60mins --- 3 blocks (base PEPs, Lyapunov-PEP, design)}
+For all parts: guided hands-on notebook examples and Q\&A.
 \end{frame}
+
 
 \begin{frame}{Ressources}
 
-Ressources to be found at
 \begin{center}
 	\url{https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE}
 \end{center}
 
-\medskip
-Please:
-\begin{itemize}
-	\item do interrupt with questions!
-	\item We will adapt the pace; program is probably optimistic.
-\end{itemize}
 
-\medskip
+\bigskip
 Tools:
 \begin{itemize}
 	\item Jupyter notebooks,
-	\item Optimization tools/packages
+	\item Optimization tools/packages:
 	\begin{itemize}
-		\item CVXPY,
-		\item if possible: get academic MOSEK license (\url{https://www.mosek.com/products/academic-licenses/})
+		\item convex optimization interfacing/modeling tool: \href{https://www.cvxpy.org/}{CVXPY}.
+		\item Semidefinite (SDP) solvers: get academic MOSEK if possible (\href{https://www.mosek.com/products/academic-licenses/}{here}).
 	\end{itemize}
-	\item Symbolics: 
+	\item Symbolic computations:
 	\begin{itemize}
-		\item SymPy
-		\item Mathematica is better (but expensive) --- free (limited) version via cloud: \url{https://www.wolframcloud.com/}.
+		\item SymPy (symbolic Python) [\textbf{OK for us}], or Wolfram Engine (\href{https://www.wolfram.com/engine/}{here}+jupyter).
+		\item Mathematica is better (but expensive) --- free (limited) version via cloud: \href{https://www.wolframcloud.com/}{here}.
 	\end{itemize}
 \end{itemize}
+
+\bigskip
+Do interrupt with questions! Pace \& program probably optimistic and to be adapted.
+
 \end{frame}
 \end{document}
 
