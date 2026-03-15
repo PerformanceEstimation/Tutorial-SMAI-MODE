@@ -29,10 +29,12 @@ Performance estimation problems were introduced in 2014 by **Yoel Drori** and **
 </p>
 
 
+### Acknowledgments
+
+We thank (Daniel Berg Thomsen)[https://bergthomsen.com/] for numerous feedback on the content of this class.
 
 
-
-## Acknowledgments
+## Funding
 
 Our projects were co-funded by the European Research Council (ERC grants SEQUOIA 724063 and CASPER 101162889) and under the management of Agence Nationale de la Recherche (ANR-19-CHIA-0002-01/chaire SCAI and Hi!Paris and ANR-23-IACL-0008 PR[AI]RIE-PSAI). Views and opinions expressed are however those of the authors only.
 
