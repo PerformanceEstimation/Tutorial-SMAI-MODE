@@ -3,6 +3,9 @@
 > [!IMPORTANT]
 > Course website:
 > **https://performanceestimation.github.io/Tutorial-SMAI-MODE/**
+>
+> Lab 1 solution:
+> [PEPit_demo_extract_worst_case_examples_session1.ipynb](./Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extract_worst_case_examples_session1.ipynb)
 
 **SMAI-MODE:** https://mode2026.sciencesconf.org/
 
