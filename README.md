@@ -1,5 +1,9 @@
 # Tutorial on performance estimation problems
 
+> [!IMPORTANT]
+> Course website:
+> **https://performanceestimation.github.io/Tutorial-SMAI-MODE/**
+
 **SMAI-MODE:** https://mode2026.sciencesconf.org/
 
 **Dates:** starts March 16th, 2026 at 2pm, ends March 17th, 2026 at 6pm.
