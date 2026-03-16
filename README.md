@@ -31,7 +31,7 @@ Performance estimation problems were introduced in 2014 by **Yoel Drori** and **
 
 ### Acknowledgments
 
-We thank (Daniel Berg Thomsen)[https://bergthomsen.com/] for numerous feedback on the content of this class.
+We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this class.
 
 
 ## Funding
