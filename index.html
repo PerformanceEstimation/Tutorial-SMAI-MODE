@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial on Performance Estimation Problems</title>
+    <meta
+      name="description"
+      content="Lecture page for the SMAI-MODE 2026 tutorial on performance estimation problems."
+    >
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">SMAI-MODE 2026 tutorial</p>
+          <h1>Tutorial on Performance Estimation Problems</h1>
+          <p class="lede">
+            A two-day mini-course on performance estimation problems, proof
+            structures, algorithm certification, and algorithm design.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#sessions">Browse sessions</a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE"
+            >
+              Browse repository
+            </a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <dl class="facts">
+            <div>
+              <dt>Dates</dt>
+              <dd>March 16, 2026, 2:00 PM to March 17, 2026, 6:00 PM</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>About 6 x 90-minute sessions</dd>
+            </div>
+            <div>
+              <dt>Venue</dt>
+              <dd>Valrose campus, Universite Cote d'Azur, Nice</dd>
+            </div>
+            <div>
+              <dt>Transport</dt>
+              <dd>Tram T1, buses 11, 16, 37</dd>
+            </div>
+          </dl>
+        </aside>
+      </header>
+
+      <main>
+        <section class="section grid-two">
+          <article class="card">
+            <h2>Practical information</h2>
+            <p>
+              The tutorial takes place at the J. A. Dieudonne laboratory on the
+              Valrose campus.
+            </p>
+            <p>
+              Address: Parc Valrose, 28 Avenue Valrose, 06000 Nice,
+              <a href="https://maps.app.goo.gl/dNRu3spFookTCSQ68">map</a>.
+            </p>
+            <p>
+              Conference page:
+              <a href="https://mode2026.sciencesconf.org/">mode2026.sciencesconf.org</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h2>Lecturers</h2>
+            <ul class="compact-list">
+              <li>
+                <a href="http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/">
+                  Aymeric Dieuleveut
+                </a>
+              </li>
+              <li>
+                <a href="https://adrientaylor.github.io/">Adrien Taylor</a>
+              </li>
+            </ul>
+            <div class="logo-strip">
+              <a href="https://www.inria.fr">
+                <img src="Logos/inria.png" alt="Inria logo">
+              </a>
+              <a href="https://www.polytechnique.edu/">
+                <img src="Logos/X.png" alt="Ecole Polytechnique logo">
+              </a>
+            </div>
+          </article>
+        </section>
+
+        <section class="section card">
+          <h2>Context and references</h2>
+          <p>
+            Performance estimation problems were introduced in 2014 by Yoel
+            Drori and Marc Teboulle. This mini-course mainly follows the
+            perspective developed by Adrien Taylor, Julien Hendrickx, and
+            Francois Glineur, with an accessible informal introduction in
+            Francis Bach's blog post on computer-aided analyses.
+          </p>
+          <ul class="reference-list">
+            <li>
+              [1]
+              <a href="https://arxiv.org/pdf/1206.3209.pdf">
+                Performance of first-order methods for smooth convex
+                minimization: a novel approach
+              </a>
+            </li>
+            <li>
+              [2]
+              <a href="https://arxiv.org/pdf/1502.05666.pdf">
+                Smooth strongly convex interpolation and exact worst-case
+                performance of first-order methods
+              </a>
+            </li>
+            <li>
+              [3]
+              <a href="https://arxiv.org/pdf/1512.07516.pdf">
+                Exact worst-case performance of first-order methods for
+                composite convex optimization
+              </a>
+            </li>
+            <li>
+              Informal introduction:
+              <a href="https://francisbach.com/computer-aided-analyses/">
+                Computer-aided analyses
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="sessions">
+          <div class="section-heading">
+            <p class="eyebrow">Course material</p>
+            <h2>Sessions</h2>
+            <p>
+              Links marked "Coming soon" can be activated later by replacing the
+              placeholder or uncommenting one of the templates at the bottom of
+              this file.
+            </p>
+          </div>
+
+          <div class="session-grid">
+            <article class="session-card">
+              <p class="session-label">Opening session</p>
+              <h3>Part 0 - Introduction</h3>
+              <p>Overview of the tutorial and the main performance estimation perspective.</p>
+              <div class="resource-group">
+                <a class="resource-link" href="./Part%200%20-%20Introduction/TutoPart0.pdf">
+                  Lecture slides
+                </a>
+                <span class="resource-link resource-link-muted">Lab not scheduled</span>
+              </div>
+            </article>
+
+            <article class="session-card">
+              <p class="session-label">Session 1</p>
+              <h3>Part 1 - PEPs and fundamental proof structures</h3>
+              <p>Core lecture material together with the first hands-on notebooks.</p>
+              <div class="resource-group">
+                <a
+                  class="resource-link"
+                  href="./Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/TutoPart1.pdf"
+                >
+                  Lecture slides
+                </a>
+                <a
+                  class="resource-link"
+                  href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extracting_a_proof.ipynb"
+                >
+                  Lab notebook
+                </a>
+              </div>
+              <p class="subresources">
+                Extras:
+                <a href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extract_worst_case_examples_session1.ipynb">
+                  worst-case examples
+                </a>
+                and
+                <a href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extract_worst_case_examples_session1_init_student_version.ipynb">
+                  student version
+                </a>.
+              </p>
+            </article>
+
+            <article class="session-card">
+              <p class="session-label">Session 2</p>
+              <h3>Part 2 - Structured algorithm certification</h3>
+              <p>Notebook-based lab focused on compact certification workflows.</p>
+              <div class="resource-group">
+                <span class="resource-link resource-link-muted">Lecture slides coming soon</span>
+                <a
+                  class="resource-link"
+                  href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%202%20-%20Structured%20algorithm%20certification/Compact%20algorithm%20certification.ipynb"
+                >
+                  Lab notebook
+                </a>
+              </div>
+            </article>
+
+            <article class="session-card">
+              <p class="session-label">Session 3</p>
+              <h3>Part 3 - Algorithm design</h3>
+              <p>Hands-on material dedicated to algorithm design with PEP-based tools.</p>
+              <div class="resource-group">
+                <span class="resource-link resource-link-muted">Lecture slides coming soon</span>
+                <a
+                  class="resource-link"
+                  href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%203%20-%20Algorithm%20design/Algorithm%20design.ipynb"
+                >
+                  Lab notebook
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section card funding">
+          <div class="section-heading">
+            <p class="eyebrow">Acknowledgments</p>
+            <h2>Funding</h2>
+          </div>
+          <p>
+            We thank
+            <a href="https://bergthomsen.com/">Daniel Berg Thomsen</a>
+            for feedback on the content of this mini-course.
+          </p>
+          <p>
+            The project was co-funded by the European Research Council and by
+            the Agence Nationale de la Recherche through the grants listed in
+            the README.
+          </p>
+          <div class="funding-logos">
+            <a href="https://erc.europa.eu/homepage">
+              <img src="Logos/EU.png" alt="European Union logo">
+            </a>
+            <a href="https://anr.fr/">
+              <img src="Logos/anr.png" alt="ANR logo">
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!--
+    Future session template:
+    <article class="session-card">
+      <p class="session-label">Session N</p>
+      <h3>Part N - Title</h3>
+      <p>Short one-line summary.</p>
+      <div class="resource-group">
+        <a class="resource-link" href="./path/to/slides.pdf">Lecture slides</a>
+        <a class="resource-link" href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/path/to/lab.ipynb">Lab notebook</a>
+      </div>
+    </article>
+    -->
+  </body>
+</html>
