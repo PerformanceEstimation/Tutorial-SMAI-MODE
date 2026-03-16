@@ -208,6 +208,41 @@ img {
   padding-left: 1.15rem;
 }
 
+.github-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.github-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.github-entry:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.github-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.github-meta a {
+  color: var(--muted);
+}
+
+.github-button-frame {
+  border: 0;
+  flex: 0 0 auto;
+}
+
 .logo-strip,
 .funding-logos {
   display: flex;
@@ -289,13 +324,8 @@ img {
   justify-content: space-between;
 }
 
-.funding-logos img:first-child {
-  height: 110px;
-  width: auto;
-}
-
-.funding-logos img:last-child {
-  height: 68px;
+.funding-logos img {
+  max-height: 96px;
   width: auto;
 }
 
@@ -319,6 +349,11 @@ img {
 
   .hero-copy h1 {
     max-width: none;
+  }
+
+  .github-entry {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .funding-logos {
