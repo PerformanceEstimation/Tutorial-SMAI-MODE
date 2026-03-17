@@ -280,6 +280,10 @@ img {
   animation: rise-in 0.85s ease both;
 }
 
+.session-card-center {
+  text-align: center;
+}
+
 .session-card p {
   color: var(--muted);
 }
@@ -289,6 +293,10 @@ img {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1rem;
+}
+
+.resource-group-center {
+  justify-content: center;
 }
 
 .resource-link {
