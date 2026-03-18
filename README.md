@@ -37,6 +37,8 @@ Performance estimation problems were introduced in 2014 by **Yoel Drori** and **
 
 We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course.
 
+We also thank Damine Ngo for his work on building the tutorial UI.
+
 
 ## Funding
 
@@ -47,6 +49,11 @@ Our projects were co-funded by the European Research Council (ERC grants SEQUOIA
     <td align="left" valign="middle">
       <a href="https://erc.europa.eu/homepage">
         <img src="Logos/EU.png" alt="European Union" height="130">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://www.hi-paris.fr/">
+        <img src="Logos/logo-hi-paris.png" alt="Hi! Paris" height="70">
       </a>
     </td>
     <td align="right" valign="middle">
