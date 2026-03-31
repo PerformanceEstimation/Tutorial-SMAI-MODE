@@ -35,9 +35,9 @@ Performance estimation problems were introduced in 2014 by **Yoel Drori** and **
 
 ### Acknowledgments
 
-We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course.
+We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course, including numerous updates to the notebooks. 
 
-We also thank Damine Ngo for his work on building the tutorial UI.
+We also thank Damine Ngo for his work on building the tutorial UI, and [Manu Upadhyaya](https://manuupadhyaya.github.io/) for feedbacks on the slides.
 
 
 ## Funding
